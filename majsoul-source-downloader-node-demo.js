@@ -98,7 +98,7 @@ let download = (url, prefix, next) => {
   })
 }
 _.shuffle(Object.keys(resMapping.res)).forEach(key => {
-  if (!key.startsWith('extendRes') && !key.startsWith('audio')) {
+  if ((!key.startsWith('extendRes') && !key.startsWith('audio')) || key.endsWith('.wma')) {
     return
   }
   let prefix = resMapping.res[key].prefix
