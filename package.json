@@ -4,7 +4,7 @@
   "description": "本项目仅对雀魂官方开放资源进行收集整理，仅限在雀魂官方允许下使用，本项目不对资源对正确性及完整性负责，请使用者周知。",
   "main": "majsoul-source-downloader-example.js",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {},
   "scripts": {
